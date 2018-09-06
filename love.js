@@ -22,7 +22,44 @@ hoisting();
 /*------------------------------------------------------------------------------*/
 
 //这种写法是错误的，因为{标点符号被视为块的开头，}标点符号被视为块的结束，而开始下一个语句的执行。
-{} instanceof Object;
+//{} instanceof Object;
 
 //正确的写法
 ({}) instanceof Object;
+
+/*-----------------------------------------------------------------------------*/
+
+//递归   斐波那契数列
+
+function recursion(num){
+    if(num===0) return 0;
+    if(num===1) return 1;
+    return recursion(num-2)+recursion(num-1);
+}
+
+console.log(recursion(5));
+
+/*-----------------------------------------------------------------------------*/
+
+//函数的声明的提升，如果采用赋值加function表达式声明和采用function语句声明，永远是前者生效
+
+var f=function(){
+    return 1;
+}
+
+function f(){
+    return 2;
+}
+
+f();//永远返回1；
+
+/*-----------------------------------------------------------------------------*/
+
+//对象的拷贝
+
+var extend=function(to,from){
+    for(var property in from){
+        to[property]=from[property];
+    }
+    return to;
+}

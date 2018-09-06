@@ -7,10 +7,43 @@
     <title>test</title>
 </head>
 <body>
-    
+    <div>
+        <p>"\xff"</p>\366
+    </div>
 
     <script src="./love.js"></script>
     <script>
+            
+            var obj={
+                property1:"firstPro",
+                property2:"secondPro",
+                property3:"thirdPro",
+                property4:"fourthPro",
+                property5:"fifthPro",
+                property6:"sixthPro",
+                property7:"seventhPro",
+                property8:"eighthPro",
+                property9:"ninthPro",
+                property10:"tenthPro",
+                property11:"eleventhPro",
+                property12:"twelfthPro",
+                property13:"thirteenthPro",
+                property14:"fourteenthPro",
+                property15:"fifteenthPro"
+            }
+            console.log(Object.keys(obj));
+            console.log("fenge");
+            console.log(Object.getOwnPropertyNames(obj));
+            var arr=['zhao','bi','yang'];
+            var arr2=['chang','shan','shan'];
+            console.log(Object.keys(arr));
+            console.log(Object.getOwnPropertyNames(arr2));
+            console.log(Object.getOwnPropertyDescriptor(arr2,1));
+            console.log(obj.valueOf());
+            console.log(obj.toString());
+
+
+        
 
     </script>
 </body>
