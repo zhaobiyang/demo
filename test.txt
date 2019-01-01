@@ -1,0 +1,3 @@
+已经add但没有commit，修改中
+add 后。修改，测试diff命令
+ceshi diff mingling
