@@ -1,9 +1,1 @@
-已经add但没有commit，修改中
-add 后。修改，测试diff命令
-ceshi diff mingling
-添加远程提交库 git remote add pb https://...
-模拟冲突 ，Are you know?
-
-
-我的名字是碧洋，哈哈，提交的慢，比较叼，然而我需要处理冲突
-上次直接pull,现在不让用pull，赶紧先提交
+1、没有办法，还是不显示冲突，所以删掉 重新写，提交了它
