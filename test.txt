@@ -1,16 +1,3 @@
-已经add但没有commit，修改中
-add 后。修改，测试diff命令
-ceshi diff mingling
-添加远程提交库 git remote add pb https://...
-模拟冲突 ， 
-woshi xinren zheci wohoutijiao 
-woyaochulidaima chongtu 
-然而不让用pull、
+woyijingjie觉完冲突
 
-
-我的名字是碧洋，哈哈，提交的慢，比较叼，然而我需要处理冲突
-上次直接pull,现在不让用pull，赶紧先提交
-
-
-那里的全部内容删掉了。。。。会有冲突吗这次。。。来吧
 
